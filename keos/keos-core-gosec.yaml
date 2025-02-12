@@ -19,9 +19,4 @@ data:
     gosec-identities-daas:
       config:
         MAIL_URL: "https://${cluster_name}.${ext_domain}"
-        ENV_USER_MAIL: "false"
-        SMTP_HOST: "${smtp_host}"
-        SMTP_USER_NAME: "${smtp_user_access_key}"
-        SMTP_USER_PASSWORD: "${smtp_user_password}"
-        MAIL_SENDER: "${mail_sender}"
         GET_USER_CERTIFICATE_CN: "gosec-management-baas,tenant-operator.keos-core"
