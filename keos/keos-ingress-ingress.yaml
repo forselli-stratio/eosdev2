@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: 02-ingress-nginx-helm-chart-override-values
+  namespace: keos-ingress
+data:
+  values.yaml: |-
+    controller:
+      extraArgs:
+        default-ssl-certificate: "kube-system/ingress-default-ssl-certificate-custom"
