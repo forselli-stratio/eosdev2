@@ -69,7 +69,7 @@ data:
                           operator: "In"
                           values:
                             - "psql"
-                topologyKey: "kubernetes.io/hostname"
+                      topologyKey: "kubernetes.io/hostname"
           healthchecks:
             livenessProbe:
               failureThreshold: 3
