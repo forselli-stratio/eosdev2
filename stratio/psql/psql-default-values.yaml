@@ -85,7 +85,7 @@ data:
               timeoutSeconds: 1
           image: "qa.int.stratio.com:11443/stratio/postgresql-task:0.8.2"
           imagePullPolicy: "Always"
-          instances: 3
+          instances: 1
           monitoring:
             enable: true
             interval: "30s"
